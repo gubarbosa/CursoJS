@@ -1,0 +1,1 @@
+document.write("Chamada de um arquivo externo <br/>")
