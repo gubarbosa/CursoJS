@@ -1,9 +1,9 @@
-var nome = "Eduardo"
+let nome = "Eduardo"
 document.write(nome)
 document.write("<br/>")
 {
     document.write("Mensagem dentro de um escopo. <br/>")
-    var nome = "Eduardo da Silva"
+    let nome = "Eduardo da Silva"
     document.write(nome)
     document.write("<br/>")
 }
