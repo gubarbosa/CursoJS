@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>If's aninhados</title>
+    <script>
+        let nota1 = parseInt(prompt("Informa a nota 1 (0-100) "))
+        let nota2 = parseInt(prompt("Informa a nota 2 (0-100)"))
+        let media = (nota1 + nota2) / 2
+        document.write('Média: ' + media, '<br/>')  
+        if (media < 500) {
+            document.write("Resultado ruim")
+        } else if (media < 800) {
+            document.write("Resultado bom")
+        } else {
+            document.write("Resultado ótimo")
+        }
+
+    </script>
+</head>
+<body>
+    
+</body>
+</html>
