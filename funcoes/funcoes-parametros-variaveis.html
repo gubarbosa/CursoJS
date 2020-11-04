@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Funções com parâmetros variáveis</title>
+</head>
+<body>
+    <button onclick="mensagemMedia()">Media</button>
+    <script>
+        function media(v1, v2, v3) {
+            return (v1 + v2 + v3) / 3
+        }
+
+        function mensagemMedia() {
+            let valor1 = 2
+            let valor2 = 4
+            let valor3 = 10
+            let resultado = media(valor1, valor2, valor3)
+            document.write("A média do aluno é de " + resultado)
+        }
+    </script>
+</body>
+</html>
