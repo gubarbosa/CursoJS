@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Funções com retorno</title>
+</head>
+<body>
+    <button onclick="mensagemSoma()">Soma</button>
+    <script>
+        function soma(valor1, valor2) {
+            return valor1 + valor2
+        }
+        function mensagemSoma() {
+
+            let valor1 = 20
+            let valor2 = 40
+            let resultado = soma(valor1, valor2)
+            document.write(
+                "A soma dos valores " + valor1 + " + " + valor2 + " é igual a " + resultado 
+            )
+        }
+    </script>
+    
+</body>
+</html>
