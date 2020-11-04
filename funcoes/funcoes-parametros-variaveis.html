@@ -8,15 +8,20 @@
 <body>
     <button onclick="mensagemMedia()">Media</button>
     <script>
-        function media(v1, v2, v3) {
+        /*function media(v1, v2, v3) {
             return (v1 + v2 + v3) / 3
+        }*/
+
+        function media2(...valores) {
+            let soma = 0
+            for (let valor of valores) {
+                soma += valor
+            }
+            return soma / valores.length
         }
 
         function mensagemMedia() {
-            let valor1 = 2
-            let valor2 = 4
-            let valor3 = 10
-            let resultado = media(valor1, valor2, valor3)
+            let resultado = media2(2, 3, 7, 9, 8.5)
             document.write("A média do aluno é de " + resultado)
         }
     </script>
