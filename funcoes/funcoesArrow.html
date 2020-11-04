@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Funções Arrow</title>
+</head>
+<body>
+    <input type="text" name="InputValor" id="InputValor">
+    <button onclick="mensagem('Gustavo')">Clique Aqui</button>
+   
+    <script>
+        const valorCubo = (v) => {
+            return v * v * v 
+        }
+
+        function mensagem(nome) {
+            const valor = document.getElementById("InputValor").value
+            document.write("Bom dia " + nome + "<br/> ")
+            document.write("O cubo de " + valor + " é " + valorCubo(valor) )
+        }
+    </script>
+    
+</body>
+</html>
